@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fff;
+}
+
+/* 初期背景色グレー */
+.form-box {
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #5a5a5a;
+  text-align: center;
+}
+
+.form-box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* 入力フォーム */
+.user-form, .pass-form {
+  border: 0;
+  display: block;
+  margin: 28px auto;
+  width: 200px;
+}
+
+/* ログインボタン */
+.login-btn {
+  border: 0;
+  display: block;
+  margin: 20px auto;
+}
